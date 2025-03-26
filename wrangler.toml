@@ -1,0 +1,8 @@
+name = "mp4-headers-worker"
+main = "src/index.js"
+compatibility_date = "2023-01-01"
+
+[triggers]
+routes = [
+  { pattern = "https://fitberry.org/photoapps/mp4_looped/*.mp4", zone_name = "fitberry.org" }
+]
