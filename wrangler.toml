@@ -2,7 +2,7 @@ name = "mp4-headers-worker"
 main = "src/index.js"
 compatibility_date = "2023-01-01"
 
-[triggers]
-routes = [
-  { pattern = "https://fitberry.org/photoapps/mp4_looped/*.mp4", zone_name = "fitberry.org" }
-]
+# Alternative format for newer Wrangler versions
+[[routes]]
+route = "https://fitberry.org/photoapps/mp4_looped/*.mp4"
+zone_id = "your-zone-id" # You can find this in the Cloudflare dashboard
