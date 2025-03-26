@@ -4,5 +4,5 @@ compatibility_date = "2023-01-01"
 
 # Define routes using the correct format
 [[routes]]
-pattern = "https://fitberry.org/photoapps/mp4_looped/*.mp4"
+pattern = "https://fitberry.org/photoapps/mp4_looped/*"
 zone_name = "fitberry.org"
